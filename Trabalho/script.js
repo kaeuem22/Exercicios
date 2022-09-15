@@ -109,11 +109,11 @@ function exerc7() {
     
     Círculo: ${areaC.toFixed(3)}
     
-    Trapézio ${areaTrap.toFixed(3)}
+    Trapézio: ${areaTrap.toFixed(3)}
     
-    Quadrado ${areaQ.toFixed(3)}
+    Quadrado: ${areaQ.toFixed(3)}
     
-    Retângulo ${areaRet.toFixed(3)}`)
+    Retângulo: ${areaRet.toFixed(3)}`)
 }
 
 // exercício 8
