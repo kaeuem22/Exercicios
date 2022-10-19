@@ -14,34 +14,6 @@ function exercicio1(){
 }
 
 
-// Exercício 2
-
-function exercicio2(){
-    
-    let n1 = Number(prompt('Digite o 1° valor decimal'))
-    let n2 = Number(prompt('Digite o 2° valor decimal'))
-    let n3 = Number(prompt('Digite o 3° valor decimal'))
-
-    const AreaTri = (num1,num3) => (num1*num3)/2
-
-    const AreaCirc = (num3) => 3.14159 * (num3**2)
-
-    const AreaTrap = (num1,num2,num3) => ((num1 + num2 )*num3)/2
-
-    const AreaQuad = (num2) => num2**2
-
-    const AreaRet = (num1, num2) => num1 * num2
-        
-    alert(`
-    Triângulo: ${AreaTri(n1,n3).toFixed(3)}
-    Círculo: ${AreaCirc(n3).toFixed(3)}
-    Trapézio: ${AreaTrap(n1,n2,n3).toFixed(3)}
-    Quadrado: ${AreaQuad(n2).toFixed(3)}
-    Retângulo: ${AreaRet(n1,n2).toFixed(3)}
-    `);
-        
-}
-
 
 // Exercício 2
 
