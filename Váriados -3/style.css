@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+section {
+    padding: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    margin-inline: 0.4rem;
+    border-radius: 4px;
+    border: none;
+    
+    background-color: #6DC0D5;
+    background-image: linear-gradient(#DED9E2,#DED9E2);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    transition:300ms background-size ease;
+}
+
+button:hover{
+    background-size: 100% 0%;
+}
